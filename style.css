@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('path/to/JosefinSans-Regular.woff2') format('woff2'),
+         url('path/to/JosefinSans-Regular.woff') format('woff');
+    /* Repeat the above for other font weights/styles if needed */
+  }
+  body {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust shadow properties as needed */
+  }
+  .navbar-brand img {
+    max-height: 50px; /* Adjust as needed */
+  }
+  .navbar-brand {
+    padding: 0;
+  }
+  .navbar-nav .nav-link {
+    padding-right: 20px; /* Adjust as needed */
+    padding-left: 20px; /* Adjust as needed */
+  }
+  .navbar {
+    background-color: #f8f9fa; /* Adjust background color */
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  .navbar-nav .nav-link:last-child {
+    margin-right: 20px; /* Adjust as needed */
+  }
+  .col h1{
+    margin-top: 30px;
+    color: #0D6DB7;
+  }
+  .join{
+    border: 1px solid  #0D6DB7 ;
+    color:  #0D6DB7;
+    background: white;
+   width: 150px;
+  }
+  .card{
+    padding: 20px;
+
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    
+  }
+
+  .card:hover .btn {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+  }
+  .card .card-body h3{
+    color: black;
+  }
+  .card .card-body p{
+    color: rgb(96, 89, 89);
+  }
+
+  body {
+    background-color: #f8f9fa;
+  }
+  .quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  .question {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .options label {
+    display: block;
+    margin-bottom: 10px;
+  }
